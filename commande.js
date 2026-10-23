@@ -1,0 +1,12 @@
+const Client = 'Awa';
+const Produit = 'Ordinateur';
+const Prix_unitaire = 250000;
+const Quantité = 2;
+const Frais_de_livraison = 5000;
+const Taux_de_TVA = 0.18;
+const Montant_total_des_produits = Prix_unitaire*Quantité
+const Montant_de_la_TVA = Montant_total_des_produits*Taux_de_TVA
+const Montant_total_TTC = Montant_total_des_produits + Montant_de_la_TVA
+const Montant_final_à_payer = Montant_total_TTC + Frais_de_livraison
+const Prix_moyen_d_un_produit = Prix_unitaire + Montant_de_la_TVA
+const remise_fixe = Montant_final_à_payer-10000 
