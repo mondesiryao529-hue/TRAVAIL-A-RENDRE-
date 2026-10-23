@@ -22,5 +22,14 @@ console.log('Montant total TTC :', Montant_total_TTC,'FCFA');
 console.log('Montant final à payer :',Montant_total_TTC + Frais_de_livraison,'FCFA');
 console.log('Montant de remise fixe :', remise_fixe, 'FCFA');
 console.log();
+console.log("Prix moyen d'un produit :", Prix_moyen_d_un_produit,'FCFA');
+console.log('le type de client est :', typeof Client);
+console.log('le type de produit est :', typeof Produit);
+console.log('le type de prix unitaire est :', typeof Prix_unitaire);
+console.log('le type de quantité est :', typeof Quantité);
+console.log('le type de frais de livraison est :', typeof Frais_de_livraison);
+console.log('le type de taux de TVA est :', typeof Taux_de_TVA);
+
+
 
 
