@@ -10,3 +10,8 @@ const Montant_total_TTC = Montant_total_des_produits + Montant_de_la_TVA
 const Montant_final_à_payer = Montant_total_TTC + Frais_de_livraison
 const Prix_moyen_d_un_produit = Prix_unitaire + Montant_de_la_TVA
 const remise_fixe = Montant_final_à_payer-10000 
+console.log('===== REÇU DE COMMANDE ====='),
+console.log('Client :', Client);
+console.log('Produit :', Produit);
+console.log('Prix unitaire :', Prix_unitaire, 'FCFA');
+console.log('quantité :', Quantité);
